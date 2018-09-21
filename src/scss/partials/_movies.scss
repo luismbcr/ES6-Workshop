@@ -1,4 +1,4 @@
-.movies{
+.movies__group{
   h3{
     width: 100%;
   }
@@ -6,7 +6,4 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 10px;
-  &__item{
-    display: none;
-  }
 }
