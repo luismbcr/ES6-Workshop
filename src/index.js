@@ -1,10 +1,8 @@
-import './style.scss';
+import 'normalize.css';
+import './scss/main.scss';
 
-const data = {
-  greeting: "hello",
-  sleep: "sleeping"
-}
+import getUserData from './js/modules/user';
+import populateMovies from './js/modules/movies';
 
-const {greeting: greet} = data;
-
-console.log(greet);
+getUserData();
+populateMovies();
