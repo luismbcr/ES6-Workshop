@@ -1,6 +1,7 @@
 import 'normalize.css';
 import './scss/main.scss';
 
-import { Hello } from './js/modules/example';
+import getUserData from './js/modules/user';
 
-console.log(Hello());
+getUserData();
+
