@@ -1,0 +1,9 @@
+.header, .footer{
+  background: $color-main;
+  color: $color-text;
+  padding: 10px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}

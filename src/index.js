@@ -1,10 +1,5 @@
-import './style.scss';
+import './scss/main.scss';
 
-const data = {
-  greeting: "hello",
-  sleep: "sleeping"
-}
+import { Hello } from './js/modules/example';
 
-const {greeting: greet} = data;
-
-console.log(greet);
+console.log(Hello());
